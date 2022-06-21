@@ -10,7 +10,7 @@ const jsonLocalStorage = {
         },
          getItem: (key) => {
           return JSON.parse(localStorage.getItem(key));
-        },
+        }
       };
 
       const fetchCat = async (text) => {
