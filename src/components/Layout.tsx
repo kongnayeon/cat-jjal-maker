@@ -1,14 +1,16 @@
-import styled from '@emotion/styled';
-import { Flex } from './Wrapper';
+import styled from '@emotion/styled'
+import { Flex } from './Wrapper'
 
 const Layout = ({ children }) => {
-  return <Flex>
-    {/* Header */}
-    <Wrapper>{children}</Wrapper>
-    </Flex>;
-};
-export default Layout;
+  return (
+    <Flex>
+      {/* Header */}
+      <Wrapper>{children}</Wrapper>
+    </Flex>
+  )
+}
+export default Layout
 
 const Wrapper = styled(Flex)`
-    width: 375px;
+  width: 375px;
 `
